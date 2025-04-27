@@ -4,7 +4,7 @@ import { Closeicon, Openicon } from "./Icon";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter, usePathname } from "next/navigation"; // ✅ Correct Import
+import { useRouter, usePathname } from "next/navigation"; 
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -45,21 +45,24 @@ const Navbar = () => {
         </Link>
         <div className="max-w-[480px] w-full justify-between flex items-center gap-4 max-lg:hidden">
           <div className="hover:border-b-2 hover:border-b-[#1777d0] h-[25px]">
-            <Link href="/"
+            <Link
+              href="/"
               className="text-[#595959] text-base font-poppins font-bold hover:text-[#1777d0]"
             >
               ABOUT US
             </Link>
           </div>
           <div className="hover:border-b-2 hover:border-b-[#1777d0] h-[25px]">
-            <Link href="/"
+            <Link
+              href="/"
               className="text-[#595959] text-base font-poppins font-bold hover:text-[#1777d0]"
             >
               WHY US
             </Link>
           </div>
           <div className="hover:border-b-2 hover:border-b-[#1777d0] h-[25px]">
-            <Link href="/"
+            <Link
+              href="/"
               className="text-[#595959] text-base font-poppins font-bold hover:text-[#1777d0]"
             >
               SERVICES
@@ -91,24 +94,24 @@ const Navbar = () => {
           </Link>
           <div className="w-full justify-between flex flex-col z-10 gap-8">
             <div>
-              <Link href="/"
-              
+              <Link
+                href="/"
                 className="text-[#595959] text-base font-poppins font-bold"
               >
                 ABOUT US
               </Link>
             </div>
             <div>
-              <Link href="/"
-              
+              <Link
+                href="/"
                 className="text-[#595959] text-base font-poppins font-bold"
               >
                 WHY US
               </Link>
             </div>
             <div>
-              <Link href="/"
-             
+              <Link
+                href="/"
                 className="text-[#595959] text-base font-poppins font-bold"
               >
                 SERVICES
