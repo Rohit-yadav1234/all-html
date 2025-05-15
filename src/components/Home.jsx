@@ -8,23 +8,19 @@ const Home = () => {
           Hyper text Markup Language
         </h1>
         <div className="flex flex-col gap-2 mt-2">
-          <p className="text-[#00BCFF] text-sm sm:text-base">
+          <p className="text-[#00BCFF] text-sm sm:text-xl">
             1. HTML stands for HyperText Markup Language.
           </p>
-
-          <p className="text-[#00BCFF] text-sm sm:text-base">
+          <p className="text-[#00BCFF] text-sm sm:text-xl">
             2. It is used to create the structure of web pages.
           </p>
-
-          <p className="text-[#00BCFF] text-sm sm:text-base">
+          <p className="text-[#00BCFF] text-sm sm:text-xl">
             3. HTML is made up of elements like div, p, h1, etc.
           </p>
-
-          <p className="text-[#00BCFF] text-sm sm:text-base">
+          <p className="text-[#00BCFF] text-sm sm:text-xl">
             4. Each element usually has an opening tag and a closing tag.
           </p>
-
-          <p className="text-[#00BCFF] text-sm sm:text-base">
+          <p className="text-[#00BCFF] text-sm sm:text-xl">
             5. HTML files have a .html extension and are displayed by web
             browsers.
           </p>
