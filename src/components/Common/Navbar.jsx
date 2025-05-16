@@ -1,9 +1,9 @@
 "use client";
-
 import { Closeicon, Openicon } from "./Icon";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Marquee from "react-fast-marquee";
 import { useRouter, usePathname } from "next/navigation";
 
 const Navbar = () => {
@@ -49,6 +49,21 @@ const Navbar = () => {
           : "bg-[#030712]"
       }`}
     >
+      <div className="overflow-hidden bg-purple-500 w-full">
+  <Marquee
+    direction="left"
+    pauseOnHover={true}
+    gradient={false}
+    speed={100}
+  >
+    <p className="text-[30px] font-medium leading-[100%] text-white whitespace-nowrap">
+      HTML | CSS | TAILWIND | BOOTSTRAP | NEXT.JS | REACT.JS | JAVASCRIPT | JAVA | PHYTHON | 
+    </p>
+    <p className="text-[30px] font-medium leading-[100%] text-white whitespace-nowrap">
+      HTML | CSS | TAILWIND | BOOTSTRAP | NEXT.JS | REACT.JS | JAVASCRIPT | JAVA | PHYTHON
+    </p>
+  </Marquee>
+</div>
       <div className="max-w-[1320px] w-full py-[15px] flex justify-between items-center mx-auto p-4 xxl:p-0">
         <Link href="/">
           <Image
