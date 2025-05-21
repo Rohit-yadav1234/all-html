@@ -31,7 +31,7 @@ const Navbar = () => {
     }
   };
 
-//  bg change 
+  //  bg change
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
@@ -50,20 +50,23 @@ const Navbar = () => {
       }`}
     >
       <div className="overflow-hidden bg-purple-500 w-full">
-  <Marquee
-    direction="left"
-    pauseOnHover={true}
-    gradient={false}
-    speed={100}
-  >
-    <p className="text-[30px] font-medium leading-[100%] text-white whitespace-nowrap">
-      HTML | CSS | TAILWIND | BOOTSTRAP | NEXT.JS | REACT.JS | JAVASCRIPT | JAVA | PHYTHON | 
-    </p>
-    <p className="text-[30px] font-medium leading-[100%] text-white whitespace-nowrap">
-      HTML | CSS | TAILWIND | BOOTSTRAP | NEXT.JS | REACT.JS | JAVASCRIPT | JAVA | PHYTHON
-    </p>
-  </Marquee>
-</div>
+        <Marquee
+          direction="left"
+          pauseOnHover={true}
+          gradient={false}
+          speed={100}
+          className="overflow-hidden"
+        >
+          <p className="text-[30px] font-medium leading-[100%] text-white whitespace-nowrap">
+            HTML | CSS | TAILWIND | BOOTSTRAP | NEXT.JS | REACT.JS | JAVASCRIPT
+            | JAVA | PHYTHON |
+          </p>
+          <p className="text-[30px] font-medium leading-[100%] text-white whitespace-nowrap">
+            HTML | CSS | TAILWIND | BOOTSTRAP | NEXT.JS | REACT.JS | JAVASCRIPT
+            | JAVA | PHYTHON
+          </p>
+        </Marquee>
+      </div>
       <div className="max-w-[1320px] w-full py-[15px] flex justify-between items-center mx-auto p-4 xxl:p-0">
         <Link href="/">
           <Image

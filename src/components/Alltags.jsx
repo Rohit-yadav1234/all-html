@@ -17,6 +17,7 @@ const Alltags = () => {
             <h2 className="text-white mt-8 text-2xl sm:text-4xl font-normal">
               <span>1.</span> Anchor tag
             </h2>
+              <div className="h-[4px] w-[100px] bg-white mt-1 rounded"></div>
             <p className="text-[#A684FF] text-base sm:text-2xl mt-5 font-normal">
               Anchor tag ka matlab hota hai "anchor tag". Ye HTML ka ek element
               hai jo kisi link ko define karta hai. Iska use hum kisi aur page,
@@ -97,18 +98,20 @@ const Alltags = () => {
           <div>
             <h2 className="text-white mt-8 text-2xl font-normal">
               Address tag
+             
             </h2>
-            <p className="text-[#A684FF] text-base mt-3 font-normal">
+             <div className="h-[4px] w-[100px] bg-white mt-1 rounded"></div>
+            <p className="text-[#A684FF] text-xl mt-3 font-normal">
               The address tag in HTML is used to define contact information for
               a person, organization, or website.
             </p>
             <p className="text-white text-base md:text-2xl mt-2 font-normal">
             Typically, it includes details like: 
             </p>
-            <p className="text-[#00BCFF] text-base mt-2 font-normal">Physical address </p>
-            <p className="text-[#00BCFF] text-base mt-2 font-normal">Phone number</p>
-            <p className="text-[#00BCFF] text-base mt-2 font-normal">Email address </p>
-            <p className="text-[#00BCFF] text-base mt-2 mb-3 font-normal">Website link</p>
+            <p className="text-[#00BCFF] text-xl mt-2 font-normal">Physical address </p>
+            <p className="text-[#00BCFF] text-xl mt-2 font-normal">Phone number</p>
+            <p className="text-[#00BCFF] text-xl mt-2 font-normal">Email address </p>
+            <p className="text-[#00BCFF] text-xl mt-2 mb-3 font-normal">Website link</p>
             <Image
               src="/images/address tag.png"
               unoptimized
